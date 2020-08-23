@@ -78,10 +78,6 @@ if __name__ == "__main__":
                 speak("All right ! OK...")
             else :
                 speak("I can't understand. Please say that again !")
-
-        elif 'open youtube' in query:
-            webbrowser.open("www.youtube.com")
-            speak("opening youtube")
             
             
         elif (("run" in query) or  ("execute" in query) or ("open" in query)) and  (("notepad" in query) or ("editor" in query) ) :
