@@ -117,10 +117,6 @@ if __name__ == "__main__":
             webbrowser.open("google.com")
             speak("opening google")
 
-        elif 'open stackoverflow' in query:
-            webbrowser.open("stackoverflow.com")
-            speak("opening stackoverflow")
-
         elif 'open yahoo' in query:
             webbrowser.open("https://www.yahoo.com")
             speak("opening yahoo")
@@ -128,18 +124,11 @@ if __name__ == "__main__":
         elif 'login my gmail' in query:
             webbrowser.open("https://mail.google.com")
             speak("opening google mail") 
-            
-        elif 'open snapdeal' in query:
-            webbrowser.open("https://www.snapdeal.com") 
-            speak("opening snapdeal")  
+              
              
         elif 'open amazon' in query or 'shop online' in query:
             webbrowser.open("https://www.amazon.com")
             speak("opening amazon")
-
-        elif 'open flipkart' in query:
-            webbrowser.open("https://www.flipkart.com")
-            speak("opening flipkart")
             
         elif 'open code' in query:
             os.system("Code.exe")
@@ -173,11 +162,6 @@ if __name__ == "__main__":
             speak(exx_exit)
             exit()
             break
-
-        elif 'the time' in query:
-            strTime = datetime.datetime.now().strftime("%H:%M:%S")
-            speak(f"the time is {strTime}")
-
 
         elif 'how are you' in query:
             setMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!']
