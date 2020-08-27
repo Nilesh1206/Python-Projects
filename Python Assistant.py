@@ -57,9 +57,9 @@ if __name__ == "__main__":
     while True:
         query = takeCommand().lower()
         if "hello" in query or "hello Annie" in query:
-            hello1 = "Hello ! How May i Help you.."
-            print(hello1)
-            speak(hello1)
+            wish = "Hello ! How May i Help you.."
+            print(wish)
+            speak(wish)
 
         elif "who are you" in query or "about you" in query or "your details" in query:
             who_are_you = "I am Annie an A I based computer program but i can help you lot like a your assistant ! try me to give simple command !"
@@ -111,17 +111,13 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open("google.com")
             speak("opening google")
-
-        elif 'open yahoo' in query:
-            webbrowser.open("https://www.yahoo.com")
-            speak("opening yahoo")
             
         elif 'login my gmail' in query:
             webbrowser.open("https://mail.google.com")
             speak("opening google mail") 
               
              
-        elif 'open amazon' in query or 'shop online' in query:
+        elif 'open amazon' in query:
             webbrowser.open("https://www.amazon.com")
             speak("opening amazon")
             
@@ -141,9 +137,9 @@ if __name__ == "__main__":
             os.system('shutdown -s')
 
         elif "your name" in query or "sweat name" in query:
-            naa_mme = "Thanks for Asking my self ! Annie"
-            print(naa_mme)
-            speak(naa_mme)
+            s = "Thanks for Asking my self ! Annie"
+            print(s)
+            speak(s)
 
         elif "you feeling" in query:
             print("feeling Very happy to help you")
@@ -153,8 +149,8 @@ if __name__ == "__main__":
             continue
 
         elif 'exit' in query or 'stop' in query or 'quit' in query :
-            exx_exit = 'See you soon. Bye'
-            speak(exx_exit)
+            ex = 'See you soon. Bye'
+            speak(ex)
             exit()
             break
 
