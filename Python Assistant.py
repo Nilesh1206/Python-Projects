@@ -166,9 +166,9 @@ if __name__ == "__main__":
                 speak("I can't understand. Please say that again !")
 
         else:
-            tempp = query.replace(' ','+')
-            prasun_url="https://www.google.com/search?q="    
-            res_prasun = 'please wait i search from internet to give your answer !'
-            print(res_prasun)
-            speak(res_prasun)
-            webbrowser.open(prasun_url+tempp)
+            temp = query.replace(' ','+')
+            url="https://www.google.com/search?q="    
+            res_ = 'please wait i search from internet to give your answer !'
+            print(res)
+            speak(res)
+            webbrowser.open(url+temp)
