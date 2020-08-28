@@ -96,47 +96,45 @@ if __name__ == "__main__":
             os.system("putty")
             speak("opening putty")
 
-        elif 'open github' in query:
+        elif 'open github' in query or 'start  my github' in query or 'show my github' in query or 'show me github' in query or 'login my github' in query or 'login github' in query:
             webbrowser.open("https://www.github.com")
-            speak("opening github")
+            speak("opening github please wait!")
 
-        elif 'login my facebook' in query:
+        elif 'login my facebook' in query or 'start my facebook' in query or 'show me facebook' in query or 'show my facebook' in query or 'run my facebook' in query :
             webbrowser.open("https://www.facebook.com")
-            speak("opening facebook")
+            speak("opening facebook please wait")
 
-        elif 'open instagram' in query:
+        elif 'open instagram' in query or 'start my instagram' in query or 'run my inatagram' in query or 'show my instagram' in query or 'open my instagram' in query:
             webbrowser.open("https://www.instagram.com")
-            speak("opening instagram")   
+            speak("opening instagram please wait")   
 
-        elif 'open google' in query:
+        elif 'open google' in query or 'hey google' in query or 'hello google' in query or 'google' in query :
             webbrowser.open("google.com")
-            speak("opening google")
+            speak("opening google please wait")
             
-        elif 'login my gmail' in query:
+        elif 'login my gmail' in query or 'open my gmail' in query or 'show my mails' in query or 'start my gmail' in query:
             webbrowser.open("https://mail.google.com")
-            speak("opening google mail") 
+            speak("opening google mail pleae wait") 
               
              
-        elif 'open amazon' in query:
+        elif 'open amazon' in query or 'start amazon' in query or 'run amazon' in query or 'show amazon' in query:
             webbrowser.open("https://www.amazon.com")
-            speak("opening amazon")
+            speak("opening amazon please wait")
             
-        elif 'open code' in query:
+        elif 'open code' in query or 'open compiler' in query or 'show me compiler' in query or 'open code compiler' in query :
             os.system("Code.exe")
-            speak("opening code")
+            speak("opening code please wait")
 
         
 
-        elif 'good bye' in query:
+        elif 'good bye' in query or 'bye' in query or 'ok see you again' in query :
             speak("good bye")
             exit()
             break
 
-        elif "shutdown" in query:
-            speak("shutting down")
-            os.system('shutdown -s')
 
-        elif "your name" in query or "sweat name" in query:
+
+        elif "your name" in query or "sweat name" in query or 'what is your name' in query:
             s = "Thanks for Asking my self ! Annie"
             print(s)
             speak(s)
@@ -148,7 +146,7 @@ if __name__ == "__main__":
         elif query == 'none':
             continue
 
-        elif 'exit' in query or 'stop' in query or 'quit' in query :
+        elif 'exit' in query or 'stop' in query or 'quit' in query or 'shutdown' in query or 'end' in query :
             ex = 'See you soon. Bye'
             speak(ex)
             exit()
@@ -170,7 +168,7 @@ if __name__ == "__main__":
         else:
             tempp = query.replace(' ','+')
             prasun_url="https://www.google.com/search?q="    
-            res_prasun = 'sorry! please wait i search from internet to give your answer !'
+            res_prasun = 'please wait i search from internet to give your answer !'
             print(res_prasun)
             speak(res_prasun)
             webbrowser.open(prasun_url+tempp)
