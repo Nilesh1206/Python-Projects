@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532537154236",
+    "project_id": "data-region-307518",
+    "storage_bucket": "data-region-307518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532537154236:android:fd3009641e2a2787b6ceb9",
+        "android_client_info": {
+          "package_name": "com.bialairwaycompanion.airwaycompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532537154236-p69tr94u9cdc1b1o9la3vjd8sk7i8lva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGUFTf9aYMKmQzi038Ay1V7gI19k8fG6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532537154236-p69tr94u9cdc1b1o9la3vjd8sk7i8lva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
